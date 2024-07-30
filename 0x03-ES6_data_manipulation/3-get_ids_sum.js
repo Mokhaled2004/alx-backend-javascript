@@ -1,8 +1,3 @@
-/**
- * Retrieves the sum of ids of a list of students.
- */
-
-
 export default function getStudentIdsSum(students) {
   if (students instanceof Array) {
     return students.reduce(
@@ -11,4 +6,4 @@ export default function getStudentIdsSum(students) {
     );
   }
   return 0;
-}
+}}
